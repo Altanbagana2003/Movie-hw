@@ -1,0 +1,39 @@
+.Header {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid white;
+}
+.categories {
+  display: flex;
+  align-items: center;
+}
+.active {
+  color: rgb(18, 199, 179);
+}
+.categories .cat {
+  padding: 10px 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.menu {
+  margin-right: 20px;
+  width: 40px;
+  height: 40px;
+}
+.line {
+  width: 30px;
+  height: 6px;
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  background-color: rgb(18, 199, 179);
+}
+.logo {
+  font-size: 30px;
+  margin-left: 20px;
+  font-weight: bolder;
+  color: rgb(18, 199, 179);
+}

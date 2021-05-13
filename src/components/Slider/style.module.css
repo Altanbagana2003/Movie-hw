@@ -1,0 +1,20 @@
+.book img {
+  width: 90px;
+  height: 120px;
+}
+.book {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.book p {
+  color: white;
+  margin-top: 5px;
+  font-weight: bold;
+}
+.slider {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
